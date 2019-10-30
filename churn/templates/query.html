@@ -5,9 +5,9 @@
 <body>
 <p><h2>Query Page</h2></p>
 {% if prediction == 1: %}
-<h4>This customer is at risk of leaving with probability {{ leave }} of leaving.</h4>
+<h2>This customer is at high risk of leaving with probability {{ leave }} of leaving.</h2>
 {% else %}
-<h4>This customer is low risk for leaving with probability {{ stay }} of staying.</h4>
+<h2>This customer is low risk for leaving with probability {{ stay }} of staying.</h2>
 {% endif %}
 </body>
 </html>
